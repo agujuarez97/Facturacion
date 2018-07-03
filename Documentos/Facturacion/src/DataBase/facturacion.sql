@@ -167,7 +167,7 @@ create table Empresa (
 /*Creacion de tabla la cual permite guardar la informacion de la cabecera de la factura*/
 create table ven_cabecera (
 	cod_venta serial not null,
-	cod_facturacion integer not null,
+	cod_facturacion integer not null, 
 	punto_venta integer not null,
 	letra varchar(1),
 	fecha_facturacion date not null,

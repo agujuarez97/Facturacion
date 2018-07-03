@@ -189,7 +189,7 @@ public class Registracion extends javax.swing.JFrame {
      * @param evt 
      */
     private void CancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelarActionPerformed
-        this.dispose();
+        System.exit(0);
     }//GEN-LAST:event_CancelarActionPerformed
 
     private void loginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginActionPerformed
